@@ -5,7 +5,8 @@ export class Group extends Component {
         super(props)
         this.state = {renderDone: true}
     }
-
+////
+/////
     render() {
          function onlyOne(checkbox, e, group_id, props) {
             var checkboxes = document.getElementsByName('checkGroup')
