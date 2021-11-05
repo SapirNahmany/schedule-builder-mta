@@ -13,7 +13,7 @@ def format_strings(string):
 
 class CrawlerCourses:
     def __init__(self):
-        self.user = 'sapirna'
+        self.user = ''
         self.password = ''
         self.driver = webdriver.Chrome(executable_path="crawler\chromedriver.exe")
 
