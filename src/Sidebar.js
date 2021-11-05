@@ -8,10 +8,10 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
   CDBBadge } from "cdbreact";
-import { gotoDatabase, gotoUserManagement } from '../components/HandleDatabase'
-import DisplayCourses from '../components/courses/DisplayCourses'
-import Login from '../components/Login'
-import Logout from '../components/Logout'
+import { gotoDatabase, gotoUserManagement } from './components/HandleDatabase'
+import DisplayCourses from './components/courses/DisplayCourses'
+import Login from './components/Login'
+import Logout from './components/Logout'
 
 const Sidebar = ({activeKey, mandatoryCourses, electiveCourses, handleUploadClick, handleSelectClick, handleHomeClick, handleScheduleClick, handleShareClick,
 user, isAdmin, handleLogin, handleLogout}) => {

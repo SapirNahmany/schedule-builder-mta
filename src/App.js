@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import { useState, useEffect } from 'react'
-import ScheduleCourses from '../components/ScheduleCourses'
-import UploadForm from '../components/UploadForm'
-import SelectDoneCourses from '../components/SelectDoneCourses'
+import ScheduleCourses from './components/ScheduleCourses'
+import UploadForm from './components/UploadForm'
+import SelectDoneCourses from './components/SelectDoneCourses'
 import axios from 'axios';
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
-import Home from '../components/Home'
-import SharedSchedulers from'../components/SharedSchedulers'
+import Home from './components/Home'
+import SharedSchedulers from'./components/SharedSchedulers'
 
 const adminMail = 'sadna2021mta@gmail.com'
 //default values to degree year and semester
